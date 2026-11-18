@@ -1,4 +1,4 @@
-# llmsmap-me
+# llmsmap.me
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,119 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-llmsmap-me is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://llmsmap.me/
+llmsmap.me operates a global directory of websites that publish llms.txt and llms-full.txt files, facilitating AI agents to discover and interact with AI‑ready sites. The platform provides audit tools, standards information, a blog, and an API for accessing the directory data, aiming to improve AI search, readiness assessment, and crawler compatibility across the web.
+
+**Areas:** Directory · AI readiness · llms.txt · llms-full.txt · Generators · Crawlers
+
+## llmsmap.me on APIs.io
+
+Everything profiled for llmsmap.me is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/llmsmap-me/](https://apis.io/providers/llmsmap-me/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [llmsmap.me Directory API](https://apis.io/apis/llmsmap-me/llmsmap-me-directory-api/) — Approved public catalog entries
+- [llmsmap.me Submissions API](https://apis.io/apis/llmsmap-me/llmsmap-me-submissions-api/) — Privacy-preserving submission status lookup
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [llmsmap.me Agentic Access](https://apis.io/agentic-access/llmsmap-me/llmsmap-me-agentic-access/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [CatalogResponse](https://apis.io/schemas/llmsmap-me/llmsmap-me-catalog-response/)
+- [DirectoryResponse](https://apis.io/schemas/llmsmap-me/llmsmap-me-directory-response/)
+- [SubmissionStatus](https://apis.io/schemas/llmsmap-me/llmsmap-me-submission-status/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Llmsmap Me Context](https://apis.io/jsonld/llmsmap-me/llmsmap-me-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [llmsmap.me API Rules](https://apis.io/rules/llmsmap-me/llmsmap-me-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [llmsmap.me Domain Security](https://apis.io/security/llmsmap-me/llmsmap-me-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://llmsmap.me/)
+- [Documentation](https://llmsmap.me/api-docs/)
+- [Getting started](https://llmsmap.me/submit/)
+- [Support](https://llmsmap.me/contacts/)
+- [Blog](https://llmsmap.me/blog/)
+- [Terms of service](https://llmsmap.me/legal/terms/)
+- [Privacy policy](https://llmsmap.me/legal/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 41.1** — developing · rubric 0.27.0 · scored 2026-11-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 58.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 21.1 |
+
+**Agent readiness 35.3** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/llmsmap-me/](https://apis.io/providers/llmsmap-me/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for llmsmap.me: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/llmsmap-me/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
